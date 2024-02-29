@@ -5,11 +5,15 @@ body{
     text-align: center;
     /* background-size: cover;  */
     /* filter: grayscale(0%); */
+    border: 10PX solid rgb(58, 39, 112);
+    border-radius: 20PX;
+}
 h1{
     padding-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 p{
     /* text-decoration-color: black;
