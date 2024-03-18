@@ -110,3 +110,58 @@ var indexNumber = prompt("Please enterindex number to add in the array")
 colors.splice(indexNumber , 0 ,userInput);
 console.log(colors)
 
+// a. Add color to the beginning of the array
+var newColorBeginning = prompt(`Enter a color to add to the beginning:`);
+colors.unshift(newColorBeginning);
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after adding color to the beginning:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
+// b. Add color to the end of the array
+var newColorEnd = prompt(`Enter a color to add to the end:`);
+colors.push(newColorEnd);
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after adding color to the end:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
+// c. Add two more colors to the beginning of the array
+colors.unshift(`Purple`, `Yellow`);
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after adding two more colors to the beginning:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
+// d. Delete the first color in the array
+colors.shift();
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after deleting the first color:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
+// e. Delete the last color in the array
+colors.pop();
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after deleting the last color:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
+// f. Add a color at a specific index
+var indexToAdd = +prompt(`Enter the index to add a color:`);
+var colorToAdd = prompt(`Enter the color to add:`);
+colors.splice(indexToAdd, 0, colorToAdd);
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after adding color at a specific index:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
+// g. Delete colors at a specific index
+var indexToDelete = +prompt(`Enter the index to delete color(s):`);
+var deleteCount =  +prompt(`Enter the number of colors to delete:`);
+colors.splice(indexToDelete, deleteCount);
+
+// Display the updated array
+document.write(`<p style="font-size:25px">Array after deleting color(s) at a specific index:</p>`);
+document.write(`<h3>${colors}</h3>`);
+
