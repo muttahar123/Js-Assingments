@@ -18,4 +18,11 @@ h2{
 p{
     /* text-decoration-color: black;
     z-index: 50px; */
+    /* border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px; */
 }
