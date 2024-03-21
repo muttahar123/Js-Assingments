@@ -52,6 +52,16 @@ for(let i = 1; i<=10; i++){
 // • Write a loop to find and print the sum of digits of a number (let's say 123).
 
 // Write a loop to print the reverse of a string (let's say "hello").
+document.write(`<h1>•loop to print the reverse of a string (let's say "hello").</h1>`)
+let str = "hello";
+let reversedStr = "";
+
+for (let i = str.length - 1; i >= 0; i--) {
+    reversedStr += str[i];
+}
+
+document.write("The reverse of '" + str + "' is: " + reversedStr);
+
 
 
 // • Write a loop to print the square of numbers from 1 to 10.
