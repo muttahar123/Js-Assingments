@@ -112,7 +112,7 @@ for (let i = 1; i < A.length; i++) {
     }
 }
 
-document.write(`<h1>This is question no.8</h1>`)
+
 document.write(`Array items :[${A}] <br>`);
 // Output the largest number
 document.write("The largest number in the array is:", largestNumber);
@@ -139,7 +139,7 @@ for (let i = 1; i < B.length; i++) {
 }
 
 // Output the smallest number
-document.write(`<h1>This is question no.9</h1>`)
+
 document.write(`Array items :[${B}] <br>`);
 // Output the largest number
 document.write(`The smallest number in the array is:, ${ smallestNumber} <br>`);
