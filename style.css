@@ -1,7 +1,9 @@
 body{
-    background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://gifdb.com/images/thumbnail/pastel-sky-background-3garh8rnc14jym78.gif);
     background-size: 100%;
+    
     /* background-repeat: no-repeat; */
+    /* background-position: ; */
     /* background:fixed; */
     align-items: center;
     text-align: center;
@@ -11,11 +13,12 @@ body{
     border-radius: 20PX;
 }
 h1{
+    
     padding-top: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 p{
     /* text-decoration-color: black;
@@ -31,3 +34,18 @@ p{
 /* .ndB{
    display: flex;
    /* padding-bottom: 200px ; */
+a{
+    border: 2px solid green;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(162, 224, 216);
+    /* height: 100px; */
+    /* transform: scale(1.2); */
+    /* transition: transform 1s ease-in-out; */
+    transition: all 0.20s;
+    box-shadow: 1px 10px 30px -6px rgb(188, 236, 210);
+}
