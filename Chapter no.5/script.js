@@ -5,22 +5,22 @@ console.log(' Sum of 3 and 5 is: '+ num2 )
 
 var num1 = 3
 var num2 = num1*5
-console.log(' Sum of 3 and 5 is: '+ num2 )
+console.log(' Multiply of 3 and 5 is: '+ num2 )
 
 
 var num1 = 3
 var num2 = num1-5
-console.log(' Sum of 3 and 5 is: '+ num2 )
+console.log(' minus of 3 and 5 is: '+ num2 )
 
 
 var num1 = 3
 var num2 = num1/5
-console.log(' Sum of 3 and 5 is: '+ num2 )
+console.log(' divide of 3 and 5 is: '+ num2 )
 
 
 var num1 = 3
 var num2 = num1%5
-console.log(' Sum of 3 and 5 is: '+ num2 )
+console.log(' modulus of 3 and 5 is: '+ num2 )
 
 var thisNum = 
  console.log(thisNum)

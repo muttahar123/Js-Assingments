@@ -7,6 +7,7 @@
 var inputChar = prompt('Enter a character:');
 
 var charCode = inputChar.charCodeAt(0);
+console.log(charCode)
 
 if (charCode >= 48 && charCode <= 57) {
     alert(inputChar + ' is a number.');

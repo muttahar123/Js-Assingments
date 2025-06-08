@@ -29,8 +29,8 @@ console.log(numArr);
 
 // 5. Declare and initialize a boolean array.
 
-// var bolArr = [True];
-// console.log(bolArr);
+var bolArr = [True];
+console.log(bolArr);
 
 
 
